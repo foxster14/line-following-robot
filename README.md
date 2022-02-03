@@ -17,4 +17,4 @@ the robot was comprised of:
 * IR sensors – used a potentiometer to fine tune sensitivity. Used a binary scale to measure how much light is reflected (so if no light is reflective, it is on the black line, if a lot of light is reflected its on white paper & needs to correct course)
 * Photoresistor – placed this at base of paper tray so that it gets covered up when paper is loaded. We hard coded the brightness value of when the printer paper is covering sensor as well as brightness value without paper, and the motors will not start unless the proper brightness value is detected 
 
-![image](concept_sketch.png)
+![image](concept_sketch.PNG)
