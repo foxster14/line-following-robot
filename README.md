@@ -19,7 +19,7 @@ the robot was comprised of:
 
 ## Flowchart
 Below is the flowchart that better illustrates the logic behind each component.
-![image](flowchart.png)
+![image](Flowchart.png)
 
 ## Concept Sketch
 Below is the concept sketch with torque and power calculations.
