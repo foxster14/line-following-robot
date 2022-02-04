@@ -4,23 +4,23 @@ In my Intro to Engineering course, we were tasked with a semester long team proj
 ## Parts 
 the robot was comprised of: 
 * Two servo motors
-* A motor controller
-* Three wheels, 
-* A breadboard
+* Motor controller
+* Three wheels
+* Breadboard
 * Rechargeable battery
 * On/off button
 * Sensors 
 * An Arduino as the “brain”
 
 ## Sensors
-* Ultrasonic – if it detected an obstacle 12-inches away, it would run a loop every second to verify the obstacle is still there and if object is still there after 2 loops, the robot will come to a halt. Based on speed our robot travels in inches per second it will stop 6-8 inches away from obstacle
-* IR sensors – used a potentiometer to fine tune sensitivity. Used a binary scale to measure how much light is reflected (so if no light is reflective, it is on the black line, if a lot of light is reflected its on white paper & needs to correct course)
-* Photoresistor – placed this at base of paper tray so that it gets covered up when paper is loaded. We hard coded the brightness value of when the printer paper is covering sensor as well as brightness value without paper, and the motors will not start unless the proper brightness value is detected 
+* **Ultrasonic** – If it detected an obstacle 12-inches away, it would run a loop every second to verify the obstacle is still there and if the object is still there after 2 loops, the robot will come to a halt. Based on the speed that the robot travels in inches per second (in/s), it will stop 6-8 inches away from obstacle.
+* **IR Sensors** – We used a potentiometer to fine tune sensitivity and a binary scale to measure how much light is reflected. So if no light is reflected, this means that the robot is on top of the black line, and if a lot of light is reflected (i.e. a 1 on a scale of 0 or 1), this means the robot is on the white paper & needs to correct its course.
+* **Photoresistor** – We placed this at base of paper tray so that it gets covered up when paper is loaded. We hard-coded the brightness value for when the printer paper is covering the sensor, as well as the brightness value without paper, so we could use this variables to tell the motors when to stop and start. The motors will not start unless the proper brightness value is detected because one of the constraints for this project was that the robot remain stationary until the paper is loaded, thus giving a person enough time to load the paper.
 
 ## Flowchart
 Below is the flowchart that better illustrates the logic behind each component.
 ![image](Flowchart.png)
 
 ## Concept Sketch
-Below is the concept sketch with torque and power calculations.
+Below is the concept sketch with weight and dimensions.
 ![image](concept_sketch.PNG)
